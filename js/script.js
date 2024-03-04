@@ -16,5 +16,5 @@ const userNumberConvert = parseInt(userNumber);
 const sum = userNumberConvert + 23;
 
 /* OUTPUT ALL'UTENTE */
-const userPassword = `la tua password è: ${userName}${userSurname}${userColor}${sum}`;
+const userPassword = `la tua password è: ${userName}${userSurname}${userColor}${sum}`.toLowerCase();
 document.getElementById('password').innerHTML = userPassword;
