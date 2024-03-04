@@ -9,6 +9,6 @@ const userSurname = prompt('Inserisci ora il tuo Cognome');
 const userColor = prompt('Inserisci adesso il tuo colore preferito');
 
 /* OUTPUT ALL'UTENTE */
-const userPassword = `${userName}${userSurname}${userColor}23`;
+const userPassword = `la tua password è: ${userName}${userSurname}${userColor}23`;
 document.getElementById('password').innerHTML = userPassword;
 console.log(userPassword);
