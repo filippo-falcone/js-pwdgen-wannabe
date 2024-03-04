@@ -1,5 +1,4 @@
-// AQUISIZIONE DATI
-
+/* AQUISIZIONE DATI */
 // Chiedi all'utente di inserire il suo nome
 const userName = prompt('Inserisci il tuo nome');
 
@@ -8,4 +7,8 @@ const userSurname = prompt('Inserisci ora il tuo Cognome');
 
 // Chiedi di inserie il colore preferito
 const userColor = prompt('Inserisci adesso il tuo colore preferito');
-console.log(userColor);
+
+/* OUTPUT ALL'UTENTE */
+const userPassword = `${userName}${userSurname}${userColor}23`;
+document.getElementById('password').innerHTML = userPassword;
+console.log(userPassword);
