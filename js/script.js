@@ -2,4 +2,7 @@
 
 // Chiedi all'utente di inserire il suo nome
 const userName = prompt('Inserisci il tuo nome');
-console.log(userName);
+
+// Chiedi di inserire il cognome
+const userSurname = prompt('Inserisci ora il tuo Cognome')
+console.log(userSurname)
