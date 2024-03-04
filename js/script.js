@@ -8,7 +8,13 @@ const userSurname = prompt('Inserisci ora il tuo Cognome');
 // Chiedi di inserie il colore preferito
 const userColor = prompt('Inserisci adesso il tuo colore preferito');
 
+// Chiedi di inserire un numero (BONUS)
+const userNumber = prompt('Inserisci ora un numero');
+const userNumberConvert = parseInt(userNumber);
+
+/* LOGICA */
+const sum = userNumberConvert + 23;
+
 /* OUTPUT ALL'UTENTE */
-const userPassword = `la tua password è: ${userName}${userSurname}${userColor}23`;
+const userPassword = `la tua password è: ${userName}${userSurname}${userColor}${sum}`;
 document.getElementById('password').innerHTML = userPassword;
-console.log(userPassword);

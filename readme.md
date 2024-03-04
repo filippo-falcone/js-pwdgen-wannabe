@@ -7,5 +7,9 @@ Password Generator
 3. poi chiedi il suo colore preferito
 4. Infine scrivi sulla pagina nomecognomecolorepreferito23
  
+## Bonus
+1. Chiedi all'utente un numero
+2. somma il numero a 23
+3. stampa la password sulla pagina con nomecognomecolorepreferito(23+numeroinserito)
 
 Preview ---> https://filippo-falcone.github.io/js-pwdgen-wannabe/
