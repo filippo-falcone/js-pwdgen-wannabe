@@ -1,20 +1,15 @@
 /* AQUISIZIONE DATI */
-// Chiedi all'utente di inserire il suo nome
+// Cosa mi serve: nome, cognome, colore preferito e numero
 const userName = prompt('Inserisci il tuo nome');
-
-// Chiedi di inserire il cognome
 const userSurname = prompt('Inserisci ora il tuo Cognome');
-
-// Chiedi di inserie il colore preferito
 const userColor = prompt('Inserisci adesso il tuo colore preferito');
-
-// Chiedi di inserire un numero (BONUS)
 const userNumber = prompt('Inserisci ora un numero');
-const userNumberConvert = parseInt(userNumber);
+const userNumberAsNumber = parseInt(userNumber);
 
 /* LOGICA */
-const sum = userNumberConvert + 23;
+const sum = userNumberAsNumber + 23;
+const userPassword = `${userName}${userSurname}${userColor}${sum}`.toLowerCase();
 
 /* OUTPUT ALL'UTENTE */
-const userPassword = `la tua password è: ${userName}${userSurname}${userColor}${sum}`.toLowerCase();
-document.getElementById('password').innerHTML = userPassword;
+const userMessage = 'la tua password è: ' + userPassword;
+document.getElementById('message').innerHTML = userMessage;
